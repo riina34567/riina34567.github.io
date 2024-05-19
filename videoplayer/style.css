@@ -30,6 +30,7 @@ body {
   
   img {
     cursor: pointer;
+   
   }
   
   .inner {
@@ -68,11 +69,14 @@ body {
   .video-controls {
     display: flex;
     gap: 1rem;
+    box-sizing: border-box  ;
   }
   
   .video-controls button {
     width: 30px;
     height: 30px;
+ 
+  
   }
   
   .video-title {
