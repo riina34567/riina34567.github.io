@@ -1,16 +1,15 @@
 /* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
 
+/* Potential challenges: For challenges I had some issues with layouting 
+each of the country and pins since it was really tedious to do and i
+had to resize the other elements in the homepage which made the layout of 
+the pins not match with the countries. Therefore, I had to re-layout the
+countries and pins several times to get the layout of the whole page right. */
 * {
   box-sizing: border-box;
 }
 body {
-  background: rgb(43, 3, 80);
-  background: radial-gradient(
-    circle,
-    rgba(43, 3, 80, 1) 0%,
-    rgba(34, 1, 52, 1) 49%,
-    rgba(85, 33, 120, 1) 100%
-  );
+  background: rgb(31, 2, 36);
 
   margin: 0;
 
@@ -20,18 +19,19 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #557a81;
+
   /* color: #3c2a21; */
   font-size: 1.1rem;
   position: relative;
 }
 
 .banner-close {
-  background-color: none;
+  background-color: #523958;
+  border-radius: 1em;
 }
 
 .banner {
-  background-color: #fdf9da;
+  background-color: #523958;
 }
 
 .banner-content {
@@ -46,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  color: #fdf9da;
 }
 
 .worldmap {
@@ -63,7 +64,7 @@ body {
 }
 
 .head {
-  background-color: #170b1a;
+  background-color: #ffffff;
 }
 
 .head-content {
@@ -77,6 +78,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  color: #8d599a;
 }
 
 .title {
@@ -131,13 +133,6 @@ body {
   position: absolute;
   left: -9999px;
 }
-
-/* .pin:hover .img {
-  position: relative;
-  left: 20px;
-  top: -150px;
-  z-index: 1;
-} */
 
 .pin:hover .usaimg {
   position: relative;
@@ -339,3 +334,6 @@ body {
     transform: matrix;
   }
 }
+/* 
+For animations: I added a simple pulsing animation so it is more subtle 
+but still engaging.  */
