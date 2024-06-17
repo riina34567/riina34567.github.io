@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+
+
+  <!-- context and action:
+  - The website is going to consist of different types of teas from 
+  around the world. I will be putting the most popular 
+  and famous teas for each country. The website is going to have a world map 
+   where the users will be able to hover over each country and get a gist of each country’s teas.
+  - The action I want to utilise for this website is hover. So, when users hover over
+  each country a information will popup about tea and its history. 
+  Originally, I was going to use both hover and scroll however, the actions of what I wanted to do
+  for hover and scroll were very different so, I just sticked with hover. -->
+<!-- 
+  For the chosen context of teas around the world and the action of hover, I think the action
+  hover guides the context very well since there is a lot of information about each country's teas
+  and this also helps to keep the webpage more minimal so that users don't have to scroll like wikipedia
+  to read boring information. I think it is a good interaction and keeps the users engaged by moving
+  the mosue to hover over each country.  -->
+
+  <!-- Colour and aesthetic:
+
+  For the colours I wanted to go with a more exotic but magical colour scheme so,
+  I went with the colours aqua blue, purple and yellow. 
+
+  For the aesthetic I wanted a more minimalistic and simple design for the main page
+  so, the users could easily see the hover information easily. -->
+
+
+
+  <body>
+
+    
+<!-- Closable banner:
+I wanted a message that would inform the users that they can hover over the countries
+to see more information about tea around the world. I also added a closing button so 
+it would look more clean after. -->
+    <div class="banner" id="banner">
+      <div class="banner-content">
+        <div class="banner-text">
+          Hover over the countries for information about teas around the world!
+        </div>
+        <button class="banner-close" id="close">
+         <img src="crossicon.png" alt="" width="10px" height="10px" id="crossimg">
+        </button>
+
+      </div>
+    </div>
+
+
+    <!-- For the header, I added a gif next to the header from "icons8",
+     "https://icons8.com/icons/set/globe". I wanted a clean design and minimalistic
+     design but I also wanted one item to pop so, I added a globe gif. -->
+    <div class="head">
+      <div class="head-content">
+        <div class="head-text">
+          <h1>Tea Around The World!</h1>
+          <img src="icons8-globe.gif" alt="" class="" width="50px" height="50px">
+        </div>
+
+      </div></div>
+  
+    <div class="title">
+    
+    </div>
+
+     
+    <!-- For the world map image I added a aqua blue map to match with the colour theme. -->
+    <div class="worldmap" >
+      <img src="World-Map-Free-Download-PNG.png" alt="map" width="1000px" height="700px" />
+
+
+
+
+
+ 
+
+          <div class="pin usa" >
+            <span>United states</span>
+          <img src="USinfos.jpg" alt="usateaimg" class="usaimg" width="500px" height="500px">
+          </div>
+        
+    
+    <div class="pin egypt">
+    
+      <span>Egypt</span>
+
+     
+      <img src="Egyptinfos.jpg" class="egimg" width="500px" height="500px">
+     
+      
+    </div>
+
+     <div class="pin china">
+      <span>China</span>
+
+      <img src="chinainfo.jpg" alt="" class="chinaimg" width="500px" height="500px">
+
+    </div>
+
+     <div class="pin srilanka">
+      <span>Sri lanka</span>
+      <img src="srilankinfo.jpg" alt="" class="srilankimg" width="500px" height="500px">
+
+    </div>
+
+     <div class="pin taiwan">
+      <span>Taiwan</span>
+      <img src="taiwaninfo.jpg" alt="" class="taiimg" width="500px" height="500px">
+
+    </div>
+     <div class="pin japan">
+      <span>Japan</span>
+      <img src="japinfo.jpg" alt="" class="japimg" width="500px" height="500px">
+
+
+    </div>
+
+     <div class="pin india">
+      <span>India</span>
+
+      <img src="indiainfo.jpg" alt="" class="indiaimg" width="500px" height="500px">
+    </div>
+
+     <div class="pin uk">
+      <span>United kingdom</span>
+      <img src="ukinfo.jpg" alt="" class="ukimg" width="500px" height="500px">
+
+
+    </div>
+
+     <div class="pin morocco">
+      <span>Morocco</span>
+
+      <img src="moroccoinfo.jpg" alt="" class="morimg" width="500px" height="500px">
+    </div>
+
+     <div class="pin thailand">
+      <span>Thailand</span>
+
+      <img src="thaiinfo.jpg" alt="" class="thaiimg" width="500px" height="500px">
+    </div>
+     <div class="pin argentina">
+      <span>Argentina</span>
+
+      <img src="arginfo.jpg" alt="" class="argimg" width="500px" height="500px">
+
+    </div>
+
+     <div class="pin turkey">
+      <span>Turkey</span>
+
+      <img src="turkeyinfo.jpg" alt="" class="turkeyimg" width="500px" height="500px">
+      
+    </div>
+
+    <!-- pins and country:
+    For the pins and countries on top of the world map I wanted it to be more
+    noticeable but subtle. 
+    When you hover over the countries you will see a information popup of the different
+    teas. I created the information tabs on canva and illustrated the teas on procreate. 
+    The informations and descriptions on the tabs are from these websites for credit:
+    https://www.nationalgeographic.com/travel/article/what-is-boba-bubble-tea-taiwan#:~:text=Bubble%20tea%20as%20we%20know,invented%20the%20drink%20in%201986.
+https://www.sipsby.com/blogs/tealover-101/the-history-of-chinese-tea#:~:text=The%20Origins%20of%20Chinese%20Tea,have%20begun%20researching%20the%20plant.
+https://www.britannica.com/topic/matcha
+https://www.indianhealthyrecipes.com/masala-tea-chai/
+https://amalachai.com/en-au/blogs/chai-blog/history-of-masala-chai#:~:text=Legends%20state%20that%20Masala%20Chai's,used%20as%20an%20ayurvedic%20medicine.
+https://www.onoteas.com/moroccan-mint-tea-resuscitating-moroccan-culture/#:~:text=During%20the%20Crimean%20War%2C%20green,and%20adding%20mint%20while%20brewing.
+ https://www.mymoroccanfood.com/home/2015/4/27/moroccan-mint-tea
+https://www.internationaldessertsblog.com/how-to-make-the-best-turkish-tea-just-like-in-istanbul/
+https://hot-thai-kitchen.com/thai-iced-tea/
+ 
+https://www.whats4eats.com/beverages/sweet-tea-recipe#
+ https://www.royalcupcoffee.com/blog/articles/southern-treat-history-behind-sweet-tea
+https://www.basilurtea.com/pages/ceylon-tea
+https://afternoontea.co.uk/information/what-is-afternoon-tea/# -->
+
+
+
+    
+
+ 
+
+      
+
+  
+  </body>
+</html>

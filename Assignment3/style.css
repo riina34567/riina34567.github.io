@@ -1,0 +1,341 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgb(43, 3, 80);
+  background: radial-gradient(
+    circle,
+    rgba(43, 3, 80, 1) 0%,
+    rgba(34, 1, 52, 1) 49%,
+    rgba(85, 33, 120, 1) 100%
+  );
+
+  margin: 0;
+
+  justify-content: center;
+  align-items: center;
+  font-family: "Eczar";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #557a81;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.banner-close {
+  background-color: none;
+}
+
+.banner {
+  background-color: #fdf9da;
+}
+
+.banner-content {
+  padding: 16px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.banner-text {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.worldmap {
+  margin: 0 auto;
+  display: flex;
+  height: 50%;
+}
+
+.worldmap img {
+  object-fit: contain;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  height: auto;
+}
+
+.head {
+  background-color: #170b1a;
+}
+
+.head-content {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.head-text {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+}
+
+.pin {
+  background: #907099;
+  position: absolute;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 70%;
+  transition-duration: 0.4s;
+}
+
+.pin::before {
+  content: "";
+  background: #d34cdd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 70%;
+  animation: pulse 1.3s ease-in-out infinite;
+}
+
+.pin span {
+  display: block;
+  white-space: nowrap;
+  position: absolute;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fdf9da;
+  border-radius: 1em;
+  padding: 0.2em 0.4em;
+  font-size: 0.6em;
+}
+
+.usa {
+  top: 53%;
+  left: 28%;
+}
+
+.usaimg {
+  position: absolute;
+  left: -9999px;
+}
+
+/* .pin:hover .img {
+  position: relative;
+  left: 20px;
+  top: -150px;
+  z-index: 1;
+} */
+
+.pin:hover .usaimg {
+  position: relative;
+  left: 100px;
+  top: -150px;
+  z-index: 1;
+}
+
+.china {
+  top: 57%;
+  left: 67%;
+}
+
+.chinaimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .chinaimg {
+  position: relative;
+  left: -500px;
+  top: -150px;
+  z-index: 3;
+}
+
+.egypt {
+  top: 62.5%;
+  left: 53.5%;
+}
+
+.egimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .egimg {
+  position: relative;
+  left: 70px;
+  top: -150px;
+  z-index: 2;
+}
+
+.argentina {
+  top: 90%;
+  left: 35%;
+}
+
+.argimg {
+  position: relative;
+  left: -9999px;
+}
+
+.pin:hover .argimg {
+  position: relative;
+  left: 100px;
+  top: -300px;
+  z-index: 4;
+}
+
+.turkey {
+  top: 56%;
+  left: 55%;
+}
+
+.turkeyimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .turkeyimg {
+  position: relative;
+  left: -500px;
+  top: -150px;
+  z-index: 5;
+}
+
+.thailand {
+  top: 66%;
+  left: 66%;
+}
+
+.thaiimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .thaiimg {
+  position: relative;
+  left: -500px;
+  top: -150px;
+  z-index: 5;
+}
+
+.morocco {
+  top: 59%;
+  left: 46%;
+}
+
+.morimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .morimg {
+  position: relative;
+  left: -500px;
+  top: -150px;
+  z-index: 5;
+}
+
+.uk {
+  top: 46.5%;
+  left: 46.5%;
+}
+
+.ukimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .ukimg {
+  position: relative;
+  left: -500px;
+  top: -150px;
+  z-index: 6;
+}
+
+.india {
+  top: 60%;
+  left: 61.5%;
+}
+
+.indiaimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .indiaimg {
+  position: relative;
+  left: -500px;
+  top: -100px;
+  z-index: 6;
+}
+
+.srilanka {
+  top: 70%;
+  left: 62.5%;
+}
+
+.srilankimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .srilankimg {
+  position: relative;
+  left: -500px;
+  top: -100px;
+  z-index: 6;
+}
+
+.japan {
+  top: 53%;
+  left: 73.5%;
+}
+
+.japimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .japimg {
+  position: relative;
+  left: -500px;
+  top: -100px;
+  z-index: 6;
+}
+
+.taiwan {
+  top: 62%;
+  left: 69.5%;
+}
+
+.taiimg {
+  position: absolute;
+  left: -9999px;
+}
+
+.pin:hover .taiimg {
+  position: relative;
+  left: -500px;
+  top: -100px;
+  z-index: 6;
+}
+
+@keyframes pulse {
+  100% {
+    opacity: 0;
+    transform: matrix;
+  }
+}
