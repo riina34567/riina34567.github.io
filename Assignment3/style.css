@@ -4,13 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(43, 3, 80);
-  background: radial-gradient(
-    circle,
-    rgba(43, 3, 80, 1) 0%,
-    rgba(34, 1, 52, 1) 49%,
-    rgba(85, 33, 120, 1) 100%
-  );
+  background-color: #907099;
 
   margin: 0;
 
@@ -21,13 +15,14 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #557a81;
-  /* color: #3c2a21; */
+
   font-size: 1.1rem;
   position: relative;
 }
 
 .banner-close {
-  background-color: none;
+  background-color: #fdf9da;
+  border-radius: 3em;
 }
 
 .banner {
@@ -63,7 +58,7 @@ body {
 }
 
 .head {
-  background-color: #170b1a;
+  background-color: #ffffff;
 }
 
 .head-content {
@@ -131,13 +126,6 @@ body {
   position: absolute;
   left: -9999px;
 }
-
-/* .pin:hover .img {
-  position: relative;
-  left: 20px;
-  top: -150px;
-  z-index: 1;
-} */
 
 .pin:hover .usaimg {
   position: relative;
@@ -295,7 +283,7 @@ body {
 .pin:hover .srilankimg {
   position: relative;
   left: -500px;
-  top: -100px;
+  top: -150px;
   z-index: 6;
 }
 
