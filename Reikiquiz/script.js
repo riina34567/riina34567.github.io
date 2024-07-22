@@ -21,11 +21,11 @@ const quizData = [
   },
   {
     question: "What's the benefit of of Reiki therapy?",
-    a: "Sleep better",
-    b: "Being calm",
-    c: "Emotional stabilities",
+    a: "Sleep better, being calm, emotional stabilities",
+    b: "Being angry, being hyper",
+    c: "Emotional instabilies",
     d: "superpowers",
-    correct: "all except superpowers",
+    correct: "a",
     description:
       "Reiki therapy helps you to sleep better, emotionally stabilises and calms your body and mind through improving our bodies energy flows from reiki therapy. ",
   },
