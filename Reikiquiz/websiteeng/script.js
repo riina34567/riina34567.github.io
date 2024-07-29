@@ -7,7 +7,7 @@ const quizData = [
     d: "A japanese temple",
     correct: "c",
     description:
-      "Source of vitality, Reiki is a japanese word which means invisible energy which is contained in our body, other living creatures and materials. All the things contain Reiki like having the energy frequency.",
+      "Source of vitality, Reiki is a japanese word which means invisible energy that is contained in our body, other living creatures and materials. All the things contain Reiki like having the energy frequency.",
   },
   {
     question: "What is Usui Reiki?",
@@ -17,17 +17,17 @@ const quizData = [
     d: "Name of cat in Japan",
     correct: "b",
     description:
-      "Name of therapy, Usui Reiki is a energy healing therapy which originated in japan about 100 years ago.",
+      "Name of therapy, Usui Reiki is an energy healing therapy which originated in japan about 100 years ago.",
   },
   {
-    question: "What's the benefit of of Reiki therapy?",
+    question: "What's the benefit of Reiki therapy?",
     a: "Sleep better, being calm, emotional stabilities",
     b: "Being angry, being hyper",
-    c: "Emotional instabilies",
+    c: "Emotional instabilities",
     d: "superpowers",
     correct: "a",
     description:
-      "Reiki therapy helps you to sleep better, emotionally stabilises and calms your body and mind through improving our bodies energy flows from reiki therapy. ",
+      "Reiki therapy helps you to sleep better, emotionally stabilizes and calms your body and mind through improving your body energy flow. ",
   },
   {
     question: "Where does Reiki energy come from?",
