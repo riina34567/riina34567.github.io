@@ -1,235 +1,295 @@
 :root {
-    --primary-bg-color: #f4f4f4;
-    --text-color: #333;
-    --main-bg-color: #333;
-    --main-text-color: #fff;
-    --main-btn-bg-color: #938989;
-  }
-  
-  body,
-  h1,
-  p,
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-/* I wanted to add a heading that's simple and a colour scheme that matched the overall layout
-of the website. */
-  h1{
-    font-size: 40px;
-    text-align: center;
-    font-family: oi;
-    font-weight: 100;
-    color: #23b69e;
-    position: fixed;
-   
- 
-
-  }
-
-  
-  h2{
-    font-size: 40px;
-
-    font-family: oi;
-    font-weight: 100;
-    color: #23b69e;
-    position: absolute;
-    bottom: 30px;
-    right: 32%;
-
-  }
-
-  
-/* I thought this font suited the website's aesthetic the best from google fonts. */
-
-  .oi-regular {
-    font-family: "Oi", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-
-
-  /* The background of the website is made through adding multiple images on top of each other on adobe 
-  illustration so, the memes don't overlap with the animated gif for the different moods. */
-  /* The memes on the website are sourced from "https://wifflegif.com/gifs/102978-relatable-funny-gif" */
-  /* The background texture is sourced from "https://stock.adobe.com/au/search?k=%22paper+texture%22&asset_id=145164871" */
-  
-  body {
-    font-family: "Arial", sans-serif;
-    background-image: url(Backgroundadobe.jpg);
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-    color: var(--text-color);
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
-  
-  /* Add additional styles as needed */
-  
-  /* Create a container for the main content */
-  .container {
-    max-width: 1000px;
-    width: 100%;
-    padding: 10px;
-  }
-  
-  /* Header styling */
-  
-  
-.center {
-    float: center;
+  --primary-bg-color: #f4f4f4;
+  --text-color: #333;
+  --main-bg-color: #333;
+  --main-text-color: #fff;
+  --main-btn-bg-color: #938989;
 }
 
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* I wanted to add a heading that's simple and a colour scheme that matched the overall layout
+of the website. */
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: oi;
+  font-weight: 100;
+  color: #23b69e;
+  position: fixed;
+}
 
- 
-  .custom-controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 10px;
-    width: 100%;
-  }
+h2 {
+  font-size: 40px;
+
+  font-family: oi;
+  font-weight: 100;
+  color: #23b69e;
+  position: absolute;
+  bottom: 30px;
+  right: 32%;
+}
+
+/* I thought this font suited the website's aesthetic the best from google fonts. */
+
+.oi-regular {
+  font-family: "Oi", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* The background of the website is made through adding multiple images on top of each other on adobe 
+  illustration so, the memes don't overlap with the animated gif for the different moods. */
+/* The memes on the website are sourced from "https://wifflegif.com/gifs/102978-relatable-funny-gif" */
+/* The background texture is sourced from "https://stock.adobe.com/au/search?k=%22paper+texture%22&asset_id=145164871" */
+
+body {
+  background: url(dawn.gif);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+/* Add additional styles as needed */
+
+/* Create a container for the main content */
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Header styling */
+
+.center {
+  float: center;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 10px;
+  width: 100%;
+}
 /* I didn't know how to hide the audio files on the website so, 
 I followed this website:
 "https://www.geeksforgeeks.org/how-to-hide-audio-controls-in-html5/" */
 
-  audio::-webkit-media-controls {
-    display: none;
+audio::-webkit-media-controls {
+  display: none;
 }
 /* NIGHT Buttons */
 /* For the Night play button I wanted a polished and simple button. So, I added a 
 blue background. */
-.Night{
-  
+.Night {
   color: rgba(250, 250, 250, 0.833);
   background-color: rgb(13, 135, 201);
   transition: all 0.4s ease;
   margin-bottom: 5%;
   height: 60px;
   border-color: rgb(13, 135, 201);
- 
- position: absolute;
- top: 400px;
- right: 0;
+
+  position: absolute;
+  top: 350px;
+  right: 0;
 }
 
 /* For the night animated gif button- I just followed up with the aesthetic and
 colour scheme of the website. */
-.moon{
+.moon {
   color: darkblue;
   background-color: rgb(13, 135, 201);
-letter-spacing: 3px;
-font-size: 13px;
-font-weight: 100;
-border: rgb(13, 135, 201);
-font-family: oi;
-float: right;
-position: absolute;
-top: 370px;
-right: 0;
-}
-
-/* NIGHT Animation of Buttons */
-/* For the animations I followed a simple youtube tutorial: 
-"https://www.google.com/search?q=how+to+create+button+html+css+java+visual+studio+code&sca_esv=323b9f97f7d38a56&sca_upv=1&rlz=1C1VDKB_en-GBAU1106AU1106&biw=966&bih=722&tbm=vid&sxsrf=ADLYWIJdFXRyPdiyME4jkf6PnvpAbU6CLQ%3A1716017797547&ei=hVpIZt7PIJmfvr0PpdC_iA4&oq=how+to+create+button+html+css+java+visu&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIidob3cgdG8gY3JlYXRlIGJ1dHRvbiBodG1sIGNzcyBqYXZhIHZpc3UqAggBMgUQIRigATIFECEYoAEyBRAhGKABSKRxULYEWNJZcAB4AJABAJgBlAKgAZYoqgEHMC4xMy4xMrgBA8gBAPgBAZgCFqACqiLCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIFEAAYgATCAgsQABiABBiRAhiKBcICChAAGIAEGBQYhwLCAggQABgWGB4YD8ICBxAhGKABGArCAgQQIRgKwgIFECEYnwWYAwCIBgGSBwcwLjEyLjEwoAfyrgE&sclient=gws-wiz-video#fpstate=ive&vld=cid:10fc17a5,vid:Q0kXrlUZk5A,st:0" */
-.moon:hover{
-  transition:all 0.4s ease;
- letter-spacing: 2px;
- color: #fffefe;
- background-color: rgb(41,0,92);
-}
-
-.Night:hover{
-  transition:all 0.4s ease;
- letter-spacing: 2px;
- color: #000000;
- background-color: rgb(41, 0, 92);
- border: rgb(41, 0, 92);
-}
-
-/* DAY Buttons */
-/* For the day buttons I wanted a colour that matched with the day time aesthetic and the
-general colour scheme of the website. */
-.day{
-  
-  color: rgba(0, 0, 0, 0.833);
-  background-color: rgb(249, 108, 43);
-  transition: all 0.4s ease;
- height: 60px;
-  border-color: rgb(249, 108, 43);
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 100;
+  border: rgb(13, 135, 201);
+  font-family: oi;
+  float: right;
   position: absolute;
   top: 300px;
   right: 0;
 }
 
-.sun{
+/* NIGHT Animation of Buttons */
+/* For the animations I followed a simple youtube tutorial: 
+"https://www.google.com/search?q=how+to+create+button+html+css+java+visual+studio+code&sca_esv=323b9f97f7d38a56&sca_upv=1&rlz=1C1VDKB_en-GBAU1106AU1106&biw=966&bih=722&tbm=vid&sxsrf=ADLYWIJdFXRyPdiyME4jkf6PnvpAbU6CLQ%3A1716017797547&ei=hVpIZt7PIJmfvr0PpdC_iA4&oq=how+to+create+button+html+css+java+visu&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIidob3cgdG8gY3JlYXRlIGJ1dHRvbiBodG1sIGNzcyBqYXZhIHZpc3UqAggBMgUQIRigATIFECEYoAEyBRAhGKABSKRxULYEWNJZcAB4AJABAJgBlAKgAZYoqgEHMC4xMy4xMrgBA8gBAPgBAZgCFqACqiLCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIFEAAYgATCAgsQABiABBiRAhiKBcICChAAGIAEGBQYhwLCAggQABgWGB4YD8ICBxAhGKABGArCAgQQIRgKwgIFECEYnwWYAwCIBgGSBwcwLjEyLjEwoAfyrgE&sclient=gws-wiz-video#fpstate=ive&vld=cid:10fc17a5,vid:Q0kXrlUZk5A,st:0" */
+.moon:hover {
+  transition: all 0.4s ease;
+  letter-spacing: 2px;
+  color: #fffefe;
+  background-color: rgb(41, 0, 92);
+}
+
+.Night:hover {
+  transition: all 0.4s ease;
+  letter-spacing: 2px;
+  color: #000000;
+  background-color: rgb(41, 0, 92);
+  border: rgb(41, 0, 92);
+}
+
+/* DAY Buttons */
+/* For the day buttons I wanted a colour that matched with the day time aesthetic and the
+general colour scheme of the website. */
+.day {
+  color: rgba(0, 0, 0, 0.833);
+  background-color: rgb(249, 108, 43);
+  transition: all 0.4s ease;
+  height: 60px;
+  border-color: rgb(249, 108, 43);
+  position: absolute;
+  top: 220px;
+  right: 0;
+}
+
+.sun {
   color: rgb(114, 54, 13);
   background-color: rgb(249, 108, 43);
   border: rgb(249, 108, 43);
-letter-spacing: 3px;
-font-size: 13px;
-font-weight: 100;
-font-family: oi;
-position: absolute;
-top: 270px;
-right: 0;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: oi;
+  position: absolute;
+  top: 170px;
+  right: 0;
 }
 
-.sun:hover{
-  transition:all 0.4s ease;
- letter-spacing: 2px;
- color: #fffefe;
- background-color: rgb(173, 24, 19);
+.sun:hover {
+  transition: all 0.4s ease;
+  letter-spacing: 2px;
+  color: #fffefe;
+  background-color: rgb(173, 24, 19);
 }
 
-.day:hover{
-  transition:all 0.4s ease;
- letter-spacing: 2px;
- color: #fffefe;
- background-color: rgb(173, 24, 19);
- border: rgb(173, 24, 19);
-
+.day:hover {
+  transition: all 0.4s ease;
+  letter-spacing: 2px;
+  color: #fffefe;
+  background-color: rgb(173, 24, 19);
+  border: rgb(173, 24, 19);
 }
 
 /* For the Main page button I wanted a logo-like button that is simple
 and unique so, I used the kaomoji sourced from "https://emojidb.org/sun-kaomoji-emojis". */
-.main{
-  background-color:  #23b69e;
+.main {
+  background-color: #23b69e;
   border: #23b69e;
   color: rgb(248, 133, 51);
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
-  top: 210px;
+  top: 10px;
   right: 0;
 }
 
-.main:hover{
-  transition:all 0.4s ease;
- letter-spacing: 2px;
- color: #23b69e;
- background-color: rgb(248, 133, 51);
+.main:hover {
+  transition: all 0.4s ease;
+  letter-spacing: 2px;
+  color: #23b69e;
+  background-color: rgb(248, 133, 51);
+}
+.box {
+  position: relative; /* Ensures the button is positioned relative to this container */
+  width: 200px;
+  height: 130px;
+  background: rgba(255, 253, 253, 0.385);
+  padding: 30px;
+  border-radius: 10px;
+  top: -10px;
+}
+.close-btn {
+  background: rgb(185, 137, 137);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  position: absolute;
+  top: 560px;
+  right: 825px;
 }
 
+.timer {
+  position: absolute;
+  top: 570px;
+  right: 885px;
+  font-size: 35px;
+  font-family: oi;
+  font-weight: 100;
+  color: #000000;
+}
 
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
 
-  
+.start {
+  background-color: #abceac;
+  color: white;
+  position: absolute;
+  top: 630px;
+  right: 895px;
+}
 
-  
-  /* Footer styling */
-  footer {
-    background-color: #000000;
-    color: var(--main-text-color);
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    
-  }
+.reset {
+  background-color: #bb8581;
+  color: white;
+  position: absolute;
+  top: 680px;
+  right: 890px;
+}
+
+.open-timer {
+  background-color: rgb(123, 164, 185);
+  color: black;
+  font-family: "Oi", serif;
+  font-size: 13px;
+  letter-spacing: 3px;
+  position: absolute;
+  right: 1px;
+  top: 420px;
+}
+
+.open-timer:hover {
+  transition: all 0.4s ease;
+  letter-spacing: 2px;
+  color: #000000;
+  background-color: rgb(9, 116, 204);
+  border: rgb(7, 66, 83);
+}
+
+/* Footer styling */
+footer {
+  background-color: #000000;
+  color: var(--main-text-color);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
