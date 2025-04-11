@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .desktop .div {
   background-color: #0638ff;
   overflow: hidden;
@@ -96,6 +101,21 @@ spline-viewer {
   height: 50px;
   background-color: rgba(3, 3, 73, 0.7);
   border-radius: 50%; /* This makes it a circle */
+  border: none;
+  z-index: 2; /* Ensure the button is above the 3D object */
+  pointer-events: auto;
+}
+
+.overlay-btn6 {
+  position: absolute;
+  top: 60%; /* Adjust this to position the circle where you want it */
+  left: 10%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgba(162, 255, 184, 0.7);
+  border-radius: 30%; /* This makes it a circle */
   border: none;
   z-index: 2; /* Ensure the button is above the 3D object */
   pointer-events: auto;
@@ -219,6 +239,28 @@ spline-viewer {
   box-shadow: 0 0 20px rgba(194, 194, 255, 0.8); /* Glow effect */
 }
 
+.overlay-btn6 {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.2);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+/* Hover Glow Effect */
+.overlay-btn6:hover {
+  background-color: rgb(149, 149, 250); /* Full opacity on hover */
+  box-shadow: 0 0 20px rgba(194, 194, 255, 0.8); /* Glow effect */
+}
+
 .desktop .text-wrapper {
   display: flex;
   justify-content: center; /* Centers the text horizontally */
@@ -234,7 +276,7 @@ spline-viewer {
 
 .desktop .overlap-group {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 113px;
   top: 939px;
   left: 0;
@@ -370,8 +412,8 @@ spline-viewer {
   align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
+  color: rgba(81, 245, 119, 0.7);
+  font-size: 19px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -415,4 +457,11 @@ spline-viewer {
   font-size: 24px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.overlap-group {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
