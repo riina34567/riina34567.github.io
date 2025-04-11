@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const overlay = document.getElementById("imageOverlay");
   const overlayImage = document.getElementById("overlayImage");
 
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= 6; i++) {
     const btn = document.querySelector(`.overlay-btn${i}`);
     if (btn) {
       btn.addEventListener("click", () => {

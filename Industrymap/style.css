@@ -111,8 +111,8 @@ spline-viewer {
   top: 60%; /* Adjust this to position the circle where you want it */
   left: 10%;
   transform: translateX(-50%);
-  width: 80px;
-  height: 70px;
+  width: 90px;
+  height: 80px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgba(162, 255, 184, 0.7);
   border-radius: 30%; /* This makes it a circle */
@@ -257,7 +257,7 @@ spline-viewer {
 
 /* Hover Glow Effect */
 .overlay-btn6:hover {
-  background-color: rgb(149, 149, 250); /* Full opacity on hover */
+  background-color: rgb(149, 240, 250); /* Full opacity on hover */
   box-shadow: 0 0 20px rgba(194, 194, 255, 0.8); /* Glow effect */
 }
 
